@@ -339,12 +339,11 @@
 .links__copyright {
   width: 186px;
   margin: 0;
+  flex-grow: 1;
+  text-align: end;
   font-family: 'Inter', 'calibri', sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 16px;
   color: #FFFFFF;
 }
-
-flex-grow: 1;
-  text-align: end;
