@@ -93,7 +93,7 @@
   max-width: 984px;
   display: flex;
   flex-direction: column;
-  margin: 56px auto;
+  margin: 56px auto 0;
 }
 
 .lead__title {
@@ -190,7 +190,7 @@
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(3, 1fr);
   gap: 16px;
-  margin: 92px 42px 0;
+  margin: 92px 48px 0;
 }
 
 .grid__item {
@@ -276,13 +276,14 @@
 
 .cover {
   max-width: 1184px;
-  height: 740px;
-  margin: 92px auto;
+  margin: 92px auto 0;
   position: relative;
 }
 
 .cover__link {
   background-image: url(../russian-travel/images/cover-trains.jpg);
+  width: 1184px;
+  height: 740px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -354,10 +355,11 @@
   font-size: 16px;
   line-height: 18px;
   color: #FFFFFF;
+  text-decoration: none;
 }
 
 .copyright {
-  width: 186px;
+  max-width: 186px;
 }
 
 .copyright_author {
@@ -368,4 +370,333 @@
   font-size: 14px;
   line-height: 16px;
   color: #FFFFFF;
+}
+
+
+
+@media screen and (max-width: 1279px) {
+  .page {
+    min-width: 1024px;
+  }
+  
+  .header {
+    max-width: 928px;
+   }
+
+  .content {
+    max-width: 1024px;
+  }
+
+  .lead {
+    max-width: 928px;
+  }
+
+  .lead__image {
+    max-width: 928px;
+  }
+  
+  .intro {
+    max-width: 690px;
+    margin: 92px 286px 0 48px;
+  }
+  
+  .photo-grid {
+    gap: 16px;
+    margin: 88px 24px 0;
+  }
+  
+  .places {
+    max-width: 928px;
+  }
+  
+  .place {
+    gap: 48px 32px;
+  }
+  
+  .place__title {
+    max-width: 440px;
+  }
+  
+  .place__image {
+    width: 440px;
+  }
+  
+  .place__paragraphs {
+    max-width: 456px;
+  }
+  
+  .cover {
+    max-width: 1024px;
+  }  
+  
+.cover__link {
+    width: 1024px;
+    height: 640px;
+}
+
+  .footer {
+    max-width: 928px;
+  }
+  
+  .copyright {
+    max-width: 186px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .page {
+    min-width: 768px;
+  }
+  
+  .header {
+    max-width: 720px;
+   }
+
+  .content {
+    max-width: 768px;
+  }
+
+  .lead {
+    max-width: 768px;
+  }
+
+  .lead__image {
+    max-width: 768px;
+  }
+  
+  .intro {
+    max-width: 720px;
+    margin: 88px auto 0;
+  }
+  
+  .intro__title {
+  max-width: 720px;
+  }
+
+  .intro__text {
+    max-width: 720px;
+  }
+
+  .intro__list {
+    min-width: 720px;
+    margin: 33px auto 0;
+  }
+
+  .photo-grid {
+    gap: 14px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+  }
+
+  .grid__item {
+    width: 100%;
+    height: 100%;
+  }
+
+  .places {
+    max-width: 720px;
+  }
+  
+  .place {
+    gap: 48px 28px;
+  }
+  
+  .place__title {
+    max-width: 340px;
+    font-size: 42px;
+    line-height: 46px;
+  }
+  
+  .place__image {
+    width: 340px;
+  }
+  
+  .place__paragraphs {
+    max-width: 352px;
+    line-height: 26.08px;
+  }
+  
+  .cover {
+    max-width: 768px;
+  }  
+  
+  .cover__link {
+    width: 768px;
+    height: 480px;
+  }
+
+  .footer {
+    max-width: 768px;
+  }
+  
+  .copyright {
+    max-width: 186px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .page {
+    min-width: 320px;
+  }
+  
+  .header {
+    max-width: 288px;
+  }
+
+  .logo {
+    background-image: url(../russian-travel/images/header-logo.svg);
+    width: 142px;
+    height: 42px;
+  }
+  
+  .lang__link {
+    font-size: 18px;
+    line-height: 20px;
+    max-width: 22px;
+  }
+  
+  .lang__link:last-of-type {
+    max-width: 22px;
+  }
+  
+  .content {
+    max-width: 320px;
+  }
+  
+  .lead {
+    max-width: 320px;
+    margin: 48px auto 0;
+  }
+  
+  .lead__title {
+    max-width: 288px;
+    font-size: 40px;
+    line-height: 44px;
+  }
+  
+  .lead__subtitle {
+    max-width: 288px;
+    margin: 16px auto 0;
+    font-size: 16px;
+    line-height: 20px;
+  }
+  
+  .lead__image {
+    max-width: 320px;
+    margin: 40px auto 0;
+  }
+
+  .lead__caption {
+    margin: 8px 146px 0 16px;
+  }
+  
+  .intro {
+    max-width: 288px;
+    margin: 64px auto 0;
+  }
+  
+  .intro__title {
+    font-size: 32px;
+    line-height: 35px;
+    max-width: 288px;
+  }
+  
+  .intro__text {
+    max-width: 288px;
+  }
+  
+  .intro__list {
+    max-width: 288px;
+    margin: 34px 0 0;
+  }
+  
+  .photo-grid {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    gap: 12px;
+    margin: 64px 16px 0;
+  }  
+  
+  .places {
+    max-width: 320px;
+    margin: 64px auto 0;
+  }
+  
+  .place {
+    width: 100%;
+    gap: none;
+    margin-bottom: 50px;
+  }
+  
+  .place__title {
+    max-width: 288px;
+    font-size: 32px;
+    line-height: 35px;
+  }
+  
+  .place__website {
+    max-width: 288px;
+    margin-top: 32px;
+  }
+  
+  .place__image {
+    width: 320px;
+    margin-top: 32px;
+  }
+  
+  .place__paragraphs {
+    max-width: 288px;
+    font-size: 16px;
+    line-height: 26.08px;
+    margin-top: 32px;
+  }
+  
+  .paragraphs__paragraph {
+    margin: 0 auto 25px;
+  }
+  
+  .cover {
+    max-width: 320px;
+    margin: 66px auto 0;
+  }
+  
+  .cover__link {
+    width: 320px;
+    height: 200px;
+  }
+  
+  .cover__title {
+    max-width: 288px;
+    font-size: 32px;
+    line-height: 35px;
+    margin: 33px auto 0;
+  }
+  
+  .cover__subtitle {
+    max-width: 288px;
+    font-size: 14px;
+    line-height: 16px;
+    margin: 16px auto 33px;
+  }
+  
+  
+  
+  .footer {
+    max-width: 186px;
+    margin: 64px 118px 0 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .links__link {
+    margin: 0;
+    font-size: 24px;
+    line-height: 24px;
+  }
+  
+  .copyright_author {
+    text-align: start;
+    line-height: 14px;
+  }
 }
