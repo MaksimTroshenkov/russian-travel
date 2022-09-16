@@ -456,6 +456,14 @@
   .place__paragraphs {
     max-width: 456px;
   }
+
+  .paragraph__one {
+    line-height: 29.34px;
+  }
+
+  .paragraph__two {
+    line-height: 29.34px;
+  }
   
   .cover {
     max-width: 1024px;
@@ -556,10 +564,12 @@
   .paragraph__one {
     margin: 0 auto 25px;
     font-size: 16px;
+    line-height: 26.08px;
   }
 
   .paragraph__two {
     font-size: 16px;
+    line-height: 26.08px;
   }
 
   .cover {
@@ -588,7 +598,7 @@
 
 @media screen and (max-width: 767px) {
   .page {
-    min-width: 768px;
+    min-width: 320px;
   }
   
   .header {
@@ -598,8 +608,6 @@
   .logo {
     width: 142px;
     height: 42px;
-    background-size: cover;
-    background-repeat: no-repeat;
   }
   
   .lang__link {
@@ -608,17 +616,8 @@
     max-width: 22px;
   }
   
-  .lang__link:last-of-type {
-    max-width: 22px;
-  }
-  
-  .content {
-    max-width: 320px;
-  }
-  
   .lead {
     max-width: 320px;
-    margin: 48px auto 0;
   }
   
   .lead__title {
@@ -628,30 +627,30 @@
   }
   
   .lead__subtitle {
-    max-width: 288px;
     margin: 16px auto 0;
+    max-width: 288px;
     font-size: 16px;
     line-height: 20px;
   }
   
   .lead__image {
-    max-width: 320px;
     margin: 40px auto 0;
+    max-width: 320px;
   }
 
   .lead__caption {
-    margin: 8px 146px 0 16px;
+    margin: 8px auto 0 16px;
   }
   
   .intro {
-    max-width: 288px;
     margin: 64px auto 0;
+    max-width: 288px;
   }
   
   .intro__title {
+    max-width: 288px;
     font-size: 32px;
     line-height: 35px;
-    max-width: 288px;
   }
   
   .intro__text {
@@ -664,47 +663,56 @@
   }
   
   .photo-grid {
+    margin: 64px auto 0;
+    max-width: 288px;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(12, 1fr);
-    gap: 12px;
-    margin: 64px 16px 0;
+    row-gap: 12px;
   }  
   
+  .grid__item {
+    max-width: 288px;
+  }
+
   .places {
     max-width: 320px;
     margin: 64px auto 0;
   }
   
   .place {
-    width: 100%;
-    gap: 32px;
     margin-bottom: 50px;
+    max-width: 320px;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     grid-auto-flow: row;
+    gap: 32px 0;
   }
   
   .place__title {
+    margin: 0 auto 0 16px;
     max-width: 288px;
     font-size: 32px;
     line-height: 35px;
   }
   
   .place__website {
+    margin: 0 auto 0 16px;
     max-width: 288px;
+    order: 1;
   }
   
   .place__image {
     width: 320px;
+    order: 2;
   }
   
-  .place__paragraphs {
+  .place__paragraph {
+    margin: 0 auto;
     max-width: 288px;
-    font-size: 16px;
-    line-height: 26.08px;
+    order: 3;
   }
   
-  .paragraphs__paragraph {
+  .paragraph__one {
     margin: 0 auto 25px;
   }
   
@@ -719,43 +727,38 @@
   }
   
   .cover__title {
+    margin: 33px auto 0;
     max-width: 288px;
     font-size: 32px;
     line-height: 35px;
-    margin: 33px auto 0;
   }
   
   .cover__subtitle {
+    margin: 16px auto 33px;
     max-width: 288px;
     font-size: 14px;
     line-height: 16px;
-    margin: 16px auto 33px;
   }
-  
-  
   
   .footer {
     max-width: 186px;
     margin: 64px auto 0 16px;
-    display: flex;
     flex-direction: column;
-    justify-content: space-between;
-  }
-  
-  .menu__ul {
-  margin: 0;
-  padding: 0;
   }
 
   .menu__link {
-    margin: 0;
     font-size: 24px;
     line-height: 24px;
-    list-style-type: none;
     text-align: start;
   }
 
+  .menu__li {
+    margin: 0 auto 32px 0;
+    display: block;
+  }
+
   .copyright_author {
+    margin: 48px auto 0;
     text-align: start;
     line-height: 14px;
   }
