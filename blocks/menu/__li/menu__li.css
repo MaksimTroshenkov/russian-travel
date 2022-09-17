@@ -1,0 +1,15 @@
+.menu__li {
+  margin-right: 18px;
+  display: inline;
+}
+
+.menu__li:last-of-type {
+  margin: 0;
+}
+
+@media screen and (max-width: 767px) {    
+  .menu__li {
+    margin: 0 auto 32px 0;
+    display: block;
+  }
+}

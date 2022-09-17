@@ -1,0 +1,33 @@
+.paragraph__one {
+  margin: 0 auto 26px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 163%;
+  color: #FFFFFF;
+}
+
+.paragraph__one:last-of-type {
+  margin: 0;
+}
+
+@media screen and (max-width: 1279px) {
+  .paragraph__one {
+    line-height: 29.34px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+   .paragraph__one {
+    margin: 0 auto 25px;
+    font-size: 16px;
+    line-height: 26.08px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .paragraph__one {
+    margin: 0 auto 25px;
+  }
+}

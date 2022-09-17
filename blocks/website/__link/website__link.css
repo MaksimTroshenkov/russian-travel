@@ -1,0 +1,11 @@
+.website__link {
+  margin-top: 12px;
+  order: 0;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+  text-underline-offset: 4px;
+}
