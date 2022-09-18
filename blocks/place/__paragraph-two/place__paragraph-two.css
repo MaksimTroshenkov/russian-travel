@@ -1,4 +1,4 @@
-.paragraph__two {
+.place__paragraph-two {
   margin: 0;
   font-family: 'Inter';
   font-style: normal;
@@ -9,13 +9,13 @@
 }
 
 @media screen and (max-width: 1279px) {
-  .paragraph__two {
+  .place__paragraph-two {
      line-height: 29.34px;
    }
 }
 
 @media screen and (max-width: 1023px) {
-  .paragraph__two {
+  .place__paragraph-two {
     font-size: 16px;
     line-height: 26.08px;
   }
