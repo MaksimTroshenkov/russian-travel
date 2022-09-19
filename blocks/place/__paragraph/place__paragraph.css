@@ -1,5 +1,5 @@
-.place__paragraph-one {
-  margin: 0 auto 26px;
+.place__paragraph {
+  margin: 0 auto;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
@@ -8,26 +8,23 @@
   color: #FFFFFF;
 }
 
-.place__paragraph-one:last-of-type {
-  margin: 0;
+.place__paragraph:nth-of-type(2) {
+  margin: 26px auto 0;
 }
 
 @media screen and (max-width: 1279px) {
-  .place__paragraph-one {
+  .place__paragraph {
     line-height: 29.34px;
   }
 }
 
 @media screen and (max-width: 1023px) {
-   .place__paragraph-one {
-    margin: 0 auto 25px;
+  .place__paragraph {
     font-size: 16px;
     line-height: 26.08px;
   }
-}
 
-@media screen and (max-width: 767px) {
-  .place__paragraph-one {
-    margin: 0 auto 25px;
+  .place__paragraph:nth-of-type(2) {
+    margin: 25px auto 0;
   }
 }
