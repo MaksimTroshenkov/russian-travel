@@ -6,6 +6,7 @@
   grid-template-columns: auto auto;
   grid-template-rows: auto auto;
   gap: 48px 40px;
+  font-family: 'Inter', Arial, sans-serif;
 }
 
 .place:last-of-type {

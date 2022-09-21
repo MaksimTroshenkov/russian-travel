@@ -1,6 +1,5 @@
-.lang__link {
+.header__link {
   margin: 0;
-  max-width: 30px;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
@@ -11,14 +10,9 @@
   text-decoration: none;
 }
 
-.lang__link:last-of-type {
-  max-width: 29px;
-}
-
 @media screen and (max-width: 767px) {
-  .lang__link {
+  .header__link {
     font-size: 18px;
     line-height: 20px;
-    max-width: 22px;
   }
 }
