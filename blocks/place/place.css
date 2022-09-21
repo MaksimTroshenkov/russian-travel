@@ -1,9 +1,7 @@
 .place {
   margin-bottom: 80px;
-  width: 984px;
   display: grid;
   grid-auto-flow: column;
-  grid-template-columns: auto auto;
   grid-template-rows: auto auto;
   gap: 48px 40px;
   font-family: 'Inter', Arial, sans-serif;
@@ -15,7 +13,6 @@
 
 @media screen and (max-width: 1279px) {
   .place {
-    max-width: 928px;
     gap: 48px 32px;
   }
 }
@@ -23,7 +20,6 @@
 @media screen and (max-width: 1023px) {
   .place {
     margin-bottom: 73px;
-    max-width: 720px;
     gap: 48px 28px;
   }
 }
@@ -31,8 +27,6 @@
 @media screen and (max-width: 767px) {
   .place {
     margin-bottom: 50px;
-    width: 100%;
-    grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     grid-auto-flow: row;
     gap: 32px 0;
